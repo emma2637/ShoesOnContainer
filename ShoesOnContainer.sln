@@ -9,7 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{759E8658-3D2B-4C70-9F9D-1B0DDB6CB29A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi", "src\Services\ProductCatalogApi\ProductCatalogApi.csproj", "{44698260-245A-46D5-BDC1-0B918750481C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApi", "src\Services\ProductCatalogApi\ProductCatalogApi.csproj", "{44698260-245A-46D5-BDC1-0B918750481C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2959555E-7BEA-4EF9-AC66-9F1B882CB8B8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMvc", "src\Web\WebMvc\WebMvc.csproj", "{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{44698260-245A-46D5-BDC1-0B918750481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44698260-245A-46D5-BDC1-0B918750481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44698260-245A-46D5-BDC1-0B918750481C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +40,7 @@ Global
 		{DE3B0D85-71A5-4030-8865-D1065BE8A2C6} = {AE7B5ABF-5070-4855-A862-C026F04B60F3}
 		{759E8658-3D2B-4C70-9F9D-1B0DDB6CB29A} = {AE7B5ABF-5070-4855-A862-C026F04B60F3}
 		{44698260-245A-46D5-BDC1-0B918750481C} = {DE3B0D85-71A5-4030-8865-D1065BE8A2C6}
+		{3137B41E-23CD-412B-AE33-9C5BE6FC4E6F} = {759E8658-3D2B-4C70-9F9D-1B0DDB6CB29A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {722EF665-AFBE-4C29-B3BC-780FA3E4B61A}
