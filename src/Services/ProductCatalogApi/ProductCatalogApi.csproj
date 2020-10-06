@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <!--<PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>--> <!--in case it fails remove comments-->
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest> <!--in case it fails remove comments-->
   </PropertyGroup>
 
   <ItemGroup>

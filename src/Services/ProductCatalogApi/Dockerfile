@@ -9,8 +9,8 @@ RUN dotnet restore
 COPY . .
 RUN dotnet publish -c release -o /out 
 
-FROM mcr.microsoft.com/dotnet/core/runtime:3.1
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 COPY --from=build /out /app/
 WORKDIR /app
-
+EXPOSE 80/tcp
 ENTRYPOINT	["dotnet","ProductCatalogApi.dll"]
